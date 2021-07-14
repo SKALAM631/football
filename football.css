@@ -1,0 +1,228 @@
+
+
+/* this is body stylesheet */
+body{
+    background-color: #E6E6E6;
+    font-family: 'Open Sans', sans-serif;
+    background-color: #FFFFFF;
+    
+}
+
+/* this is banner stylysheet */
+
+.banner{
+    background-color:RGB(45,37,160);
+    
+    padding: 100px ;
+    margin-bottom:50px 
+}
+.logo-banner{
+    display: flex;
+}
+.banner-heading h1{
+    color: rgb(255, 255, 255);
+    font-size: 65px;
+}
+.live{
+    background-color:#E02C6D;
+    font-size: 50px;
+    padding: 10px;
+}
+
+.banner-heading{
+    width: 50%
+}
+.banner-heading h1{
+    font-size: 60px;
+}
+
+.banner-photo{
+    width: 50%
+}
+
+.banner-photo img{
+    width:800px ;
+    
+}
+
+/* top players stylesheet */
+
+
+
+
+
+.playars .playar-photo img{
+    width: 280px;
+    height: 300px;
+}
+
+
+.playars .playar-othor{
+    width: 260px;
+    font-family:sans-serif
+}
+.playars{
+    background-color: #FFFFFF;
+    padding: 15px;
+    
+    box: shadow;20px 20px 20px 50px white;
+    margin: 10px; 
+
+}
+
+.playars{
+    display: grid;
+    
+}
+
+.top-playars{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+
+
+
+
+
+.top-playars{
+     
+        width: 1180px;
+        margin: 0 auto;
+        padding: 30px;
+        background-color:#E6E6E6;
+        margin-bottom: 150px;
+
+        
+}
+
+
+
+/* top playars stylesheet end  */
+
+
+/* match stylesheet */
+
+.haighlights{
+    width: 1180px;
+    margin: 0 auto;
+    height: 500px;
+   
+
+    padding: 30px;
+
+}
+
+
+.match-title{
+    font-size: 50px;
+}
+.match-othor{
+    font-family: sans-serif;
+    width: 50%;
+}
+.match-live img{
+    width: 500px;
+    height: 480px;
+}
+.match-ditail{
+    width: 50%;
+}
+.match-live{
+    width: 50%;
+}
+
+
+.match-container{
+    display: flex;
+    box-shadow: 20px 20px 50px white;
+}
+
+/* match stylesheet end */
+
+
+/* last logo stylesheet */
+
+
+.last-logo{
+   
+    width: 1180px;
+    margin: 0 auto;
+    
+}
+
+.last-logo img{
+    width: 500px;
+    margin-left: 350px;
+    
+    
+}
+
+.awesome{
+    width: 1180px;
+    margin: 0 auto;
+}
+
+.awesome i{
+    
+    width: 50px;
+}
+
+.awesome{
+    display: flex; 
+    justify-content: center;
+}
+
+/* last logo end */
+
+
+/* footer styleshhet */
+
+.footer{
+    margin-top: 20px;
+    background-color: yellow;
+    border-radius: 10px;
+    text-align: center;
+    font-family: sans-serif;
+
+
+}
+
+
+
+/* footer stylesheet end */
+
+
+
+/* midea inquary start now */
+
+@media only screen and (max-width:688px){
+    .banner,.top-playars{
+        background-color: tan;
+        
+    }
+
+    
+
+
+
+    body{
+        width: 100%;
+    }
+    
+}
+
+
+
+
+    
+
+
+
+
+    
+   
+
+
+
+
+
